@@ -1,0 +1,104 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "deno@latest": {
+      "last_modified": "2025-02-26T05:29:08Z",
+      "resolved": "github:NixOS/nixpkgs/3a05eebede89661660945da1f151959900903b6a#deno",
+      "source": "devbox-search",
+      "version": "2.2.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iv8fa6gnj592fm01rfxpklwvfz4qmcql-deno-2.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iv8fa6gnj592fm01rfxpklwvfz4qmcql-deno-2.2.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f918qzw1khavmm75xhja9iv8gbskvizq-deno-2.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f918qzw1khavmm75xhja9iv8gbskvizq-deno-2.2.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6yprqa7p6dlac28h670wwpp4ds98mxp7-deno-2.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6yprqa7p6dlac28h670wwpp4ds98mxp7-deno-2.2.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ixxpyaqcjlmpr8f0k4lzhmcjzlavfpsd-deno-2.2.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ixxpyaqcjlmpr8f0k4lzhmcjzlavfpsd-deno-2.2.2"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/ab0c5b18dab5e4b5d06ed679f8fd7cdc9970c4be?lastModified=1741646908&narHash=sha256-55a1x5k%2BoFY2QCFjj7Mn5nPa8Do0shVl0m280mOAW%2FQ%3D"
+    },
+    "typescript-language-server@latest": {
+      "last_modified": "2025-02-23T09:42:26Z",
+      "resolved": "github:NixOS/nixpkgs/2d068ae5c6516b2d04562de50a58c682540de9bf#typescript-language-server",
+      "source": "devbox-search",
+      "version": "4.3.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kz83fd5yjyhz3j8wmwn0y9yk7aml2a28-typescript-language-server-4.3.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kz83fd5yjyhz3j8wmwn0y9yk7aml2a28-typescript-language-server-4.3.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8rahwyh2q0vx8vv577jjqg45qqr9m14f-typescript-language-server-4.3.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8rahwyh2q0vx8vv577jjqg45qqr9m14f-typescript-language-server-4.3.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n46rn8p7hjg5php745mzs0g1ajn9znc5-typescript-language-server-4.3.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n46rn8p7hjg5php745mzs0g1ajn9znc5-typescript-language-server-4.3.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2g9i1920qr2a6c2yyzlgfr7wmcd26w09-typescript-language-server-4.3.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2g9i1920qr2a6c2yyzlgfr7wmcd26w09-typescript-language-server-4.3.3"
+        }
+      }
+    }
+  }
+}
