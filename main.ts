@@ -7,13 +7,13 @@ const files = await Array.fromAsync(walk("./files", {
 }));
 
 const parsed = files.map((entry) => ({
-  category: entry.path.split("/")[1],
-  institution_or_organization: entry.path.split("/")[2],
+  type: entry.path.split("/")[1],
+  category: entry.path.split("/")[2],
   file_name: entry.name,
 }));
 
 const csv = stringify(parsed, {
-  columns: ["category", "institution_or_organization", "file_name"],
+  columns: ["type", "category", "file_name"],
 });
 
 console.log(csv);

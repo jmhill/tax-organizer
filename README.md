@@ -5,12 +5,13 @@ in the following structure:
 
 - `/files`
 	- `/income`
-		- `/{organization_or_institution}`
+		- `/{category}`
+		  - `{file_name}`
 	- `/expense`
-		- `/{organization_or_institution}`
+		- `/{category}`
 
 ...idea being that the script will read the path to organize each file by
-category (income or expense), and organization or financial institution.
+type (income or expense), category, and then all files should exist only in a category folder.
 
 The script just dumps the csv output to the console, so can redirect to a file
 easily in nushell by doing:
